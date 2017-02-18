@@ -1,0 +1,30 @@
+/* --------------------------------------------------
+// 07/COMPONENTS/DRUMKIT - KEY
+// -------------------------------------------------- */
+
+.c-key {
+  width: rem(110px);
+  margin: rem(8px);
+  padding: rem(12px);
+  background: rgba(black, 0.5);
+  border: 4px solid black;
+  border-radius: 6px;
+  color: white;
+  text-align: center;
+  transition: all 0.07s ease;
+
+  &_letter {
+    display: block;
+    font-size: 40px;
+  }
+
+  &_sound {
+    text-transform: uppercase;
+  }
+
+  &.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+  }
+}

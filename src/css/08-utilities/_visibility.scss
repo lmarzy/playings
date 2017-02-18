@@ -1,0 +1,17 @@
+/* --------------------------------------------------
+// 08/UTILITIES - VISIBILITY
+// -------------------------------------------------- */
+
+@if $include-visibility {
+  .isVisible {
+    display: block !important;
+  }
+
+  .isHidden {
+    display: none !important;
+  }
+
+  .isVisuallyHidden {
+    @include vh;
+  }
+}//end if $u-visibility

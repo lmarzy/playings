@@ -1,0 +1,16 @@
+{
+  "metaAuthor": "Lee Marsden",
+	"siteName": "Playings",
+
+  "pages": {
+    "index": {
+      "title": "Playings - Home",
+      "pageHeading": "Playings"
+    },
+    "drumKit": {
+      "title": "Playings - Drum Kit",
+      "pageHeading": "Drum Kit",
+      "js": "drumKit"
+    }
+  }
+}

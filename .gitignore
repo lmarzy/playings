@@ -1,0 +1,10 @@
+logs
+*.log
+
+node_modules
+dev
+dist
+.DS_Store
+.tmp
+
+selenium.debug.log

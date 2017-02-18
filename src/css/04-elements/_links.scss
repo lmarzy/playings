@@ -1,0 +1,10 @@
+/* --------------------------------------------------
+// 04/ELEMENTS - LINKS
+// -------------------------------------------------- */
+
+@if $include-links {
+  a {
+    color: $links;
+    text-decoration: none;
+  }
+}//end if $links

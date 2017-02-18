@@ -1,0 +1,9 @@
+/* --------------------------------------------------
+// 05/OBJECTS - CONTAINER
+// -------------------------------------------------- */
+
+@if $include-container {
+  .o-container {
+    @include container;
+  }
+}//end if $container

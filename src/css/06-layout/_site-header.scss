@@ -1,0 +1,13 @@
+/* --------------------------------------------------
+// 06/LAYOUT - SITE HEADER
+// -------------------------------------------------- */
+
+.l-siteHeader {
+  padding: 0 $gutter;
+  border-bottom: 1px solid $borders;
+  background: white;
+
+  &_logo {
+    @include vr(18px, 2, 0);
+  }
+}

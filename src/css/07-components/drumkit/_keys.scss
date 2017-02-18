@@ -1,0 +1,12 @@
+/* --------------------------------------------------
+// 07/COMPONENTS/DRUMKIT - KEYS
+// -------------------------------------------------- */
+
+.c-keys {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: calc(100vh - 73px);
+  background: orange;
+}

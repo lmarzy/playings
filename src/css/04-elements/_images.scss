@@ -1,0 +1,10 @@
+/* --------------------------------------------------
+// 04/ELEMENTS - IMAGES
+// -------------------------------------------------- */
+
+@if $include-images {
+  img {
+    max-width: 100%;
+    vertical-align: auto;
+  }
+}//end if $images

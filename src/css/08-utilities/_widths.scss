@@ -1,0 +1,15 @@
+/* --------------------------------------------------
+// 08/UTILITIES - WIDTHS
+// -------------------------------------------------- */
+
+@if $include-widths {
+  $at: \@; // used in the varialble name so need to be created as a variable first
+
+  @include widths();
+
+  @each $bp, $query in $breakpoints {
+    @include bp($bp) {
+      @include widths($at + "bp" + $bp);
+    }
+  }
+}//end if $widths
